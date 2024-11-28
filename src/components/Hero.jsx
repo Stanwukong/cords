@@ -123,7 +123,6 @@ const Hero = () => {
           <video
             ref={nextVideoRef}
             src={getVideoSrc(currentIndex)}
-            autoPlay
             loop
             muted
             id="next-video"
